@@ -14,7 +14,7 @@ with open('clothing_decisions.json', 'r') as file:
     artificial_dataset = json.load(file)
 
 
-# Assuming 'artificial_dataset' contains generated data entries
+
 weather_data = []
 expected_outerwear = []
 expected_top = []
