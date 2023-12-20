@@ -160,7 +160,7 @@ for _ in range(5000):
     temperatureF = random.uniform(0, 100)  # Random temperature between 0 to 100 degrees Fahrenheit
     humidity = random.uniform(0, 100)  # Random humidity between 0% to 100%
     
-    artificial_data = Make_Decision(precipitation, windmph, temperatureF, humidity)  # You can modify these values or make them random
+    artificial_data = Make_Decision(precipitation, windmph, temperatureF, humidity)  
     artificial_dataset.append(artificial_data)
 
 
